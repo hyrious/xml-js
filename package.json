@@ -1,6 +1,6 @@
 {
   "name": "@hyrious/xml-js",
-  "version": "1.6.12",
+  "version": "1.6.13",
   "description": "A converter between XML text and Javascript object / JSON text.",
   "repository": "hyrious/xml-js",
   "author": "Yousuf Almarzooqi <ysf953@gmail.com>",
