@@ -6,6 +6,13 @@ rollup ([rollup-plugin-node-polyfills](https://github.com/ionic-team/rollup-plug
 
 I also removed tests and coverage for faster setup. :sweat_smile:
 
+Applied these [_useful forks_](https://useful-forks.github.io/?repo=nashwaan%2Fxml-js):
+
+- [Escape `&` `<` in attributes](https://github.com/melody-universe/xml-js)
+- [Add nativeTypeAttributes type definition](https://github.com/mariuseis/xml-js/commit/aec4986298b3270ee8f429871907d65d9859b0da)
+- [Handling errors with onErrorFn instead of throwing exception on first error](https://github.com/drdmitry/xml-js/commit/3476bb3a7917c6a2f7f464427a2dfd8f479d53c3)
+- ... Need more? PR on me!
+
 Install: `npm i @hyrious/xml-js`.
 
 Replace it in **vite.config.js**:
