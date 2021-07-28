@@ -15,13 +15,21 @@ Applied these [_useful forks_](https://useful-forks.github.io/?repo=nashwaan%2Fx
 
 Install: `npm i @hyrious/xml-js`.
 
+Replace it in **package.json**:
+
+```json
+"dependencies": {
+  "xml-js": "npm:@hyrious/xml-js"
+}
+```
+
 Replace it in **vite.config.js**:
 
 ```js
 export default defineConfig({
-    alias: {
-        "xml-js": "@hyrious/xml-js"
-    }
+  alias: {
+    "xml-js": "@hyrious/xml-js"
+  }
 })
 ````
 
@@ -38,6 +46,12 @@ Replace it in **webpack.config.js**
 ````
 
 Other ways: [see how preact does](https://preactjs.com/guide/v8/switching-to-preact/).
+
+## Changelog
+
+### 1.6.14
+
+- Use named export, for tree shaking purpose.
 
 - - -
 
