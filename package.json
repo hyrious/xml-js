@@ -1,6 +1,6 @@
 {
   "name": "@netless/xml-js",
-  "version": "1.6.14",
+  "version": "1.6.15",
   "description": "A converter between XML text and Javascript object / JSON text.",
   "repository": "netless-io/xml-js",
   "author": "Yousuf Almarzooqi <ysf953@gmail.com>",
