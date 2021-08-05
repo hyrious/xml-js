@@ -1,8 +1,8 @@
 {
-  "name": "@hyrious/xml-js",
+  "name": "@netless/xml-js",
   "version": "1.6.14",
   "description": "A converter between XML text and Javascript object / JSON text.",
-  "repository": "hyrious/xml-js",
+  "repository": "netless-io/xml-js",
   "author": "Yousuf Almarzooqi <ysf953@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -46,9 +46,9 @@
     "build": "rollup -c"
   },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^19.0.2",
+    "@rollup/plugin-commonjs": "^20.0.0",
     "@rollup/plugin-node-resolve": "^13.0.4",
-    "rollup": "^2.55.0",
+    "rollup": "^2.55.1",
     "rollup-plugin-node-polyfills": "^0.2.1",
     "sax": "^1.2.4"
   }
