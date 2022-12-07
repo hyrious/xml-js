@@ -10,15 +10,13 @@ export default {
         {
             file: pkg.main,
             format: "cjs",
-            sourcemap: true,
-            sourcemapExcludeSources: true,
+            sourcemap: false,
             exports: "auto",
         },
         {
             file: pkg.module,
             format: "es",
-            sourcemap: true,
-            sourcemapExcludeSources: true,
+            sourcemap: false,
             exports: "auto",
         },
     ],
